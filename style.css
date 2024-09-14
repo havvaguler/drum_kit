@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://github.com/wesbos/JavaScript30/blob/master/01%20-%20JavaScript%20Drum%20Kit/background.jpg?raw=true) center no-repeat;
+    background-size: cover;
+}
+
+
+.keys {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.07s;
+}
+
+.hoverkey {
+    transform: scale(1.1);
+    border: 5px solid yellow;
+}
